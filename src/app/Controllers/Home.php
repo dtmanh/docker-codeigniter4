@@ -6,7 +6,6 @@ class Home extends BaseController
 {
     public function index()
     {
-        var_dump(12);die;
         return view('welcome_message');
     }
 
